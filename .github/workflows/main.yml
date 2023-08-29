@@ -42,4 +42,4 @@ jobs:
 
     - name: Create Tunnel
 
-    - run: tcp://0.tcp.ngrok.io:14777
+    - run: .ngrok\ngrok.exe tcp 3389
